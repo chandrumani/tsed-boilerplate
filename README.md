@@ -1,21 +1,17 @@
 # image-processor-boilerplate
 
-> An awesome project based on Ts.ED framework
-
-See [Ts.ED](https://tsed.io) project for more information.
-
 ## Build setup
 
 > **Important!** Ts.ED requires Node >= 10, Express >= 4 and TypeScript >= 3.
 
 ```batch
-# install dependencies
+# install dependencies through the below command
 $ npm install
 
-# serve
+# start the server
 $ npm run start
 
-# build for production
-$ npm run build
-$ npm run start:prod
 ```
+Access the upload API URL via
+POST `http://localhost:8083/api/image/upload`
+pass the image via `file` parameter
